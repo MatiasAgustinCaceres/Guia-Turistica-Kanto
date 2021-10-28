@@ -9,8 +9,8 @@
     'texto_1 texto_1'
     'texto_2 texto_2'
     'texto_3 texto_3'
-    'menu img'
-    'menu img';
+    'menu_1 img'
+    'menu_2 img';
 }
 
 .titulo {
@@ -36,7 +36,17 @@
     grid-area: texto_3;
 }
 
+.img {
+    grid-area: img;
+}
 
+.contactanos{
+    grid-area: menu_2;
+}
+
+.ciudades{
+    grid-area: menu_1;
+}
 /*
 header {
     color:rgb(205,92,92);
