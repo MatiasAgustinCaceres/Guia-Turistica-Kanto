@@ -1,0 +1,14 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+header {
+    color:rgb(205,92,92);
+    background-color: rgb(124,252,0);
+    font-size: x-large; 
+}
+
+body{
+    font-size: small; 
+}
+
