@@ -9,7 +9,14 @@ body{
     background-color: rgb(105,105,105);
     margin: 20px;
     gap: 20px;
+    padding: 30px;
 }
+
+/*
+.grid_container_index > * {
+    border-style: solid;
+}
+*/
 
 @media all and (max-width: 600px){
 
@@ -21,6 +28,9 @@ body{
         'menu_1'
         'img';
     }
+    .menues a{
+        padding-bottom: 30px;
+    }
 
 }
 
@@ -31,6 +41,9 @@ body{
         'menu_1 texto_2 '
         'menu_1 texto_3'
         'img img';
+    }
+    .menues a{
+        padding-bottom: 30px;
     }
 }
 
@@ -44,6 +57,9 @@ body{
     'menu_1 img';
     }
 
+    .menues a{
+        padding-top: 60px;
+    }
 }
 
 
@@ -83,7 +99,7 @@ body{
 .img {
     grid-area: img;
     align-items: center;
-    border-style: dotted;
+    padding-left: 80px;
 }
 
 .menues {
@@ -94,5 +110,45 @@ body{
 
 .menues a{
     font-family: 'Orbitron', sans-serif;
-    border-style: dotted;
+    border-style: solid;
+    border-color: rgb(139,0,0);
+    padding-top: 60px;
+}
+
+
+
+
+
+/*                                Diseño para ciudades.html                                                 */
+
+
+
+.grid_container_ciudades {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
+.grid_container_ciudades > * {
+
+    border-style: solid;
+
+}
+
+.grid_container_ciudades > p {
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: medium; 
+    grid-column: 1 / 5;
+    color:rgb(255,255,240);
+}
+
+.titulo_ciudades {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color:rgb(255,255,240);
+    font-size: 80px; 
+    grid-column: 1 / 5;
 }
