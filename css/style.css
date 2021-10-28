@@ -1,19 +1,14 @@
-* {
-    font-family: 'Press Start 2P', cursive;
-}
-
-
 .grid_container_index {
     display: grid;
     grid-template-areas: 'header header'
     'texto_1 texto_1'
     'texto_2 texto_2'
     'texto_3 texto_3'
-    'menu_1 img'
-    'menu_2 img';
+    'menu_1 img';
 }
 
 .titulo {
+    font-family: 'Press Start 2P', cursive;
     color:rgb(205,92,92);
     background-color: rgb(124,252,0);
     font-size: x-large; 
@@ -21,17 +16,20 @@
 }
 
 .texto_1{
+    font-family: 'Press Start 2P', cursive;
     font-size: small; 
     grid-area: texto_1;
 }
 
 
 .texto_2{
+    font-family: 'Press Start 2P', cursive;
     font-size: small; 
     grid-area: texto_2;
 }
 
 .texto_3{
+    font-family: 'Press Start 2P', cursive;
     font-size: small; 
     grid-area: texto_3;
 }
@@ -40,13 +38,32 @@
     grid-area: img;
 }
 
+.menues {
+    display: grid;
+    text-align: center;
+    grid-area: menu_1;
+    border-style: dotted;
+}
+
+.menues a{
+    border-style: dotted;
+}
+
+
+
+
+
+
+/*
 .contactanos{
-    grid-area: menu_2;
+    grid-area: menu_1;
 }
 
 .ciudades{
-    grid-area: menu_1;
+    grid-area: menu_2;
 }
+*/
+
 /*
 header {
     color:rgb(205,92,92);
