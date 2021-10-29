@@ -12,7 +12,7 @@ body{
     padding: 30px;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
 
     .grid_container_index {
         grid-template-areas: 'header'
@@ -28,7 +28,7 @@ body{
 
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 700px){
 
     .grid_container_index {
         grid-template-areas: 'header texto_1'
@@ -203,7 +203,7 @@ body{
     color: rgb(0,0,0);
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
 
     .grid_container_ciudades {
         grid-template-columns: auto auto;
@@ -236,10 +236,6 @@ body{
     'home home home';
 }
 
-/*.grid_continer_pag_no_terminada > *{
-    border-style: solid;
-}
-*/
 .texto_4 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -278,7 +274,7 @@ body{
     color: rgb(255,248,220);
 }
 
-/*                                         Animación                                                  */
+/*                                         Animación (esta en las paginas "no terminadas"                                                 */
 
 
 .circle {
